@@ -1,0 +1,39 @@
+.container{
+	/* For color: 
+		1. Normal
+		2. Hexadecimal
+		3. RGB
+	*/
+	background-color: #34495e;
+	width: 80%;
+	margin: 0 auto;
+}
+/*Text Formating*/
+.firstH1{
+	color: #fff;
+	font-size: 22px;
+}
+#secondH1{
+	color: #fff;
+	font-size: 40px;
+}
+p{
+	color: #fff;
+	text-align: justify;
+	font-style: italic;
+	font-style: oblique;
+	font-style: normal;
+	font-style: italic;
+	text-decoration: none;
+	text-decoration: underline;
+	text-decoration: none;
+	text-decoration: overline;
+	text-decoration: line-through;
+	text-decoration: none;
+	/*font-weight: bold;*/
+	font-weight: 800;
+	text-transform: uppercase;
+	text-transform: lowercase;
+	text-transform: capitalize;
+}
+
