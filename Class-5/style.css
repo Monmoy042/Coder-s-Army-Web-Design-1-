@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+	font-family: Arial, Helvetica, 'Roboto';
+	font-family: Segoe UI;
+	//background-color:green;
+}
+h1{
+	color: red;
+}
+
+/*p{
+	color: #9b59b6;
+	background-color: #95a5a6;
+}*/
+
+/*Class & ID*/
+.firstP,#thirdP{
+	color: #9b59b6;
+	background-color: #95a5a6;
+}
+
+/*Block and Inline element*/
+.block{
+	background-color: #34495e;
+	color: #fff;
+	font-size: 18px;
+	display: inline;
+}
+.inline{
+	background-color: #3498db;
+	color: #fff;
+	font-size: 18px;
+	display: block;
+	//display: none;
+}
+
+.image{
+	height: 400px;
+	width: 600px;
+	display: block;
+	margin: auto;
+	border: 2px solid #256;
+	border-radius: 50%;
+}
+
+.content{
+	background-color: #34495e;
+	color: #fff;
+	font-size: 18px;
+	/*margin: 15px; || All Sides */
+	//margin-right: 15px;
+	//margin-left: 15px;
+	//margin: 0px 15px 0px 15px;
+	//margin: 15px 0px;
+	//margin-top: 5px;
+	//margin-bottom: 50px;
+	//margin: 5px;
+	margin: 15px 20px 50px 15px;
+	margin: 20px 50px;
+}
+
+
