@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+.textA{
+	margin: 5px;
+	
+	/*border: 1px solid red;*/
+	/*border: 2px dotted #ff3333;
+	border-top: 2px dotted #ff3333;
+	border-right: 2px solid #ff3333;*/
+	border: 2px solid gray;
+	border-width: 2px 2px 6px 8px; 
+	border-radius: 20px;
+	
+	padding: 15px;
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-bottom: 25px;
+	padding: 2px 5px;
+	padding: 2px 6px 5px 10px;
+}
+
+#loginButton{
+	margin: 10px;
+	width: 50%;
+	background-color: #1affa3;
+	border-radius: 5px;
+	//transition: 3s;
+}
+#loginButton:hover{
+	background-color: #ff4d4d;
+	color: #fff;
+	transition: 3s;
+	delay: 2s;
+}
+
+.mainDiv{
+	background-color: #ff4d4d;
+	margin:5px;
+	height: 500px;
+	width: 100%;
+	
+}
+.firstDiv{
+	width: 40%;
+	float: left;
+	background-color: #1affa3;
+}
+
+.secondDiv{
+	width: 40%;
+	float: right;
+	margin: 6px;
+	background-color: #1affa3;
+}
+
+
