@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<input type="text" id="name">
+	<input type="password" id="pass">
+	<button onclick="fun1()" >Click me</button>
+
+	<script type="text/javascript">
+		
+		
+		function fun1(){
+			var name = document.getElemntById("name").value;
+		var password = document.getElemntById("pass").value;
+		if(name=="Tamim" && password=="12345"){
+			alert("Login");
+		}
+		else{
+			alert("login failed");
+		}
+	}
+	</script>
+</body>
+</html>

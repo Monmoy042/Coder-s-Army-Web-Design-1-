@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript 2nd Class</title>
+	</head>
+	<body>
+		
+		<!-- Login System -->
+		<input type="text" id="username" placeholder="Enter your name">
+		<br>
+		<input type="password" id="pass" placeholder="Enter password">
+		<br>
+		<button onmouseover="login()" id="btn1">SignIn</button>
+
+
+		<br><br>
+
+		<!-- Add two numbers -->
+		<input type="text" id="num1" placeholder="Enter First Number">
+		<input type="text" id="num2" placeholder="Enter Second Number">
+		<button onclick="addition()" id="button1">Add</button>
+
+		<script>
+
+
+			console.log('A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.');
+
+			// Template String
+			const student = `name: Labib
+							Department: CSE
+							Id: 10`
+			console.log(student);
+
+			// Loop
+			//For loop
+			// While Loop
+			var i;
+			// i++ => i+1
+			for(i=1;i<=11;i++){
+				console.log(i);
+			}
+
+			console.log('<br/>');
+
+			// While Loop
+			var n=0;
+			while(n<=11){
+				console.log(n);
+				n++;
+			}
+
+			// Function
+			let hello = function(){
+				console.log('Hello World!');
+			}
+			hello();
+
+			var num1;
+			var num2;
+			var num3;
+			var num4;
+
+			let add = function(num1,num2,num3,num4){
+				let sum = num1+num2+num3+num4;
+				return sum;
+			}
+			console.log(add(10,2,5,8));
+			console.log('<br>');
+			
+
+			// Scope
+			let a = 10;
+			console.log(a); // o/p = 10
+			if(a==10){
+				a = 11;
+				console.log(a); // o/p = 11
+
+				var b = 5;
+				console.log(b); // o/p = 5
+				b=200;
+				console.log(b); // o/p = 200
+			}
+			//a=100;
+			b = 300;
+			console.log(a);
+			console.log(b); // o/p = 200
+
+			//alert('Hello World!');
+
+			// Event
+			/* 
+				1. onclick()
+				2. onmouseover()
+				3. mouseright()
+				4. ondblclick() // Double Click
+			*/
+
+			// var name = document.getElementById("username").value;
+			// var password = document.getElementById("pass").value;
+
+			
+				// console.log(name);
+				// console.log(password);
+				// console.log("Hello World");
+			
+			// Login System
+			
+			function login(){
+				var newName = document.getElementById("username").value;
+				var newPass = document.getElementById("pass").value;
+				
+				if(newName=="Tamim" && newPass==12345){
+					alert("You have successfully logged in");
+				}
+				else{
+					alert("Log in interrupted");
+				}
+			}
+
+			// Add Two numbers
+			function addition(){
+
+				var number1 = parseInt(document.getElementById("num1").value);
+				var number2 = parseInt(document.getElementById("num2").value);
+				var result = number1+number2;
+				alert(result);
+
+				console.log(result);
+				console.log(typeof(result));
+			}
+
+
+			// H.W. ----> 
+			/*
+				1. Different Ways to declare javaScript user define function
+				2. Show all the even numbers from 0-100 using while loop
+				3. Build up a simple calculator using user input [add,subtraction,product and division]
+			*/
+
+		</script>
+	</body>
+</html>
