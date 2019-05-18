@@ -6,3 +6,35 @@ body{
     color:#fff;
     padding: 5%;
 }
+#image{
+	height: 50px;
+	width: 60px;
+}
+
+#text3{
+	background-color: red;
+	color: #fff;
+	padding: 15px;
+	text-align:justify;
+}
+#text4{
+	background-color: green;
+	color: #fff;
+	padding: 15px;
+	display: none;
+}
+
+
+#top{
+	background-color: #000;
+	color: #fff;
+	height:50px;
+	width: 60px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#top:hover{
+	background-color:red;
+	color:#fff;
+}
